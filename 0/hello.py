@@ -18,5 +18,23 @@ print("Hello,",name)
 print("hello")
 print(name,end="???")
 
-#stopped at 43min
+#most recent way of doing the printing with variable
+print(f"hello, {name}")
 
+name = "lennart"
+name = name.strip()
+print(name)
+
+#overwrite the newline usual behaviour of print
+#you can use 'end' aswell, be consistent
+print("hello, ",end="")
+print("lennart")
+
+#paramters vs named parameters
+
+print('hello, "friend"')
+print("hello, \"friend\"")
+
+print(f"hello,{name}")
+
+#stopped at 46 minutes
